@@ -37,3 +37,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
 end
+
+group :production do
+  gem 'rails_12factor'
+end
